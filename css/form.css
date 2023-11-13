@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    height: 600px;
+    align-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #0000;
+    background-color: rgb(157, 187, 177);
+    width: 30%;
+    height: 40%;
+
+}
+.container input{
+    width: 100%;
+    margin-top: 10px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px 5px;
+}
